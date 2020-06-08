@@ -1,0 +1,71 @@
+var emp = `[{
+	"uniqueID": "12346647",
+	"firstName": "Erich",
+	"lastName": "Huber",
+	"emailaddress": "erich.huber@cf.at",
+	"jobTitle": "technician",
+	"salary": "4000"
+},{
+	"uniqueID": "18456877",
+	"firstName": "Anna",
+	"lastName": "Hofer",
+	"emailaddress": "anna.hofer@cf.at",
+	"jobTitle": "CEO",
+	"salary": "8000"
+},{
+	"uniqueID": "346747",
+	"firstName": "Max",
+	"lastName": "Maier",
+	"emailaddress": "max.maier@cf.at",
+	"jobTitle": "facilitymanager",
+	"salary": "2000"
+},{
+	"uniqueID": "74656647",
+	"firstName": "Fred",
+	"lastName": "Schidt",
+	"emailaddress": "fred.schmidt@cf.at",
+	"jobTitle": "technician",
+	"salary": "3000"
+},{
+	"uniqueID": "451468",
+	"firstName": "Sonja",
+	"lastName": "Tekken",
+	"emailaddress": "sonja.tekken@cf.at",
+	"jobTitle": "technician",
+	"salary": "4000"
+},{
+	"uniqueID": "60956856",
+	"firstName": "Marion",
+	"lastName": "Hofer",
+	"emailaddress": "marion.hofer@cf.at",
+	"jobTitle": "technician",
+	"salary": "4000"
+},{
+	"uniqueID": "56078635",
+	"firstName": "Tobias",
+	"lastName": "Reich",
+	"emailaddress": "tobias.reich@cf.at",
+	"jobTitle": "CTO",
+	"salary": "8000"
+},{
+	"uniqueID": "341345372",
+	"firstName": "Zacharias",
+	"lastName": "Zarathustra",
+	"emailaddress": "zacharias.zarathustra@cf.at",
+	"jobTitle": "god",
+	"salary": "15000"
+},{
+	"uniqueID": "76068736",
+	"firstName": "Hiob",
+	"lastName": "Sbotschaft",
+	"emailaddress": "hiob.sbotschaft@cf.at",
+	"jobTitle": "Sündenbock",
+	"salary": "1500"
+},{
+	"uniqueID": "14746863",
+	"firstName": "Maria",
+	"lastName": "Magdalena",
+	"emailaddress": "maria.magdalena@cf.at",
+	"jobTitle": "Mädchen für Alles",
+	"salary": "3000"
+}]`
