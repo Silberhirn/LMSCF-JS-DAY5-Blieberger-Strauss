@@ -1,7 +1,7 @@
 var cars = `[
     {
         "carName": "Ferrari 812 Superfast",
-        "year": "2002",
+        "year": "2017",
         "hp": "800",
         "price": "500.000",
         "img": "img/812.jpg"
@@ -11,7 +11,7 @@ var cars = `[
         "year": "2014",
         "hp": "963",
         "price": "2.300.000",
-        "img": ""
+        "img": "img/laf2.jpg"
     },
     {
         "carName": "Ferrari LaFerrari Aperta",
@@ -50,16 +50,16 @@ var cars = `[
     },
     {
         "carName": "McLaren P1",
-        "year": "2015",
-        "hp": "1175",
+        "year": "2013",
+        "hp": "916",
         "price": "1.000.000",
-        "img": ""
+        "img": "img/p1.jpg"
     },
     {
         "carName": "Bugatti Chiron",
         "year": "2015",
         "hp": "1500",
         "price": "3.500.000",
-        "img": ""
+        "img": "img/chiron.jpg"
     }
 ]`
