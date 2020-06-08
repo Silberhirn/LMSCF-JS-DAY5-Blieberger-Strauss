@@ -32,7 +32,7 @@ var cars = `[
         "year": "2015",
         "hp": "1175",
         "price": "4.500.000",
-        "img": ""
+        "img": "img/agerars.png"
     },
     {
         "carName": "Ferrari 599 GTO",
