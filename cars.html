@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='utf-8'>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>index</title>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300&display=swap" rel="stylesheet">
+	<style>
+		header div {
+		  display: flex;
+		  background-color: #FFF3F3;
+		  justify-content: space-between;
+		  padding: 1em;
+		  align-items: center; }
+
+		 nav {
+		  display: flex;
+		  height: 2em;
+		  align-items: center;
+		  font-size: 15pt; }
+		  nav ul {
+		    display: flex;
+		    list-style: none;
+		    color: white;
+		    margin-left: 1em;
+		    margin-top: 0;
+		    margin-bottom: 0;
+		    padding: 0; }
+		    nav ul li {
+		      margin-right: 1em; }
+
+		#headernav {
+  			background-color: #8E1616; }
+
+  		footer {
+		  display: flex;
+		  color: white;
+		  background-color: black;
+		  height: 12em;
+		  flex-flow: column wrap;
+		  justify-content: space-between; }
+		  footer p {
+		    text-align: center; }
+		  footer img {
+		    align-self: flex-end;
+		    margin-right: 1em; }
+
+		[class*="big"] {
+			display: none;
+		}
+
+		#main {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+		}
+
+		[id*="car"] {
+			width: 30%;
+		}
+
+		.img {
+			width: 90%;
+			margin: auto;
+			height: 10em;
+			overflow: hidden;
+		}
+
+		img {
+			width: 100%;
+		}
+
+		#main {
+			margin: 2em;
+		}
+
+	</style>
+</head>
+<body>
+	<header>
+		<div>
+			<img src="img/logo.png" alt="Insurance CF">
+			<img id="banner" src="img/banner.png" alt="Banner">
+		</div>
+		<nav id="headernav">
+			<ul>
+				<li>Home</li>
+			</ul>
+		</nav>
+	</header>
+
+
+	<div id="main"></div>
+
+
+	<footer>
+		<nav id="footernav">
+			<ul>
+				<li>Home</li>
+			</ul>
+		</nav>
+		<img src="img/logo-inv.png" alt="Logo CF">
+		<p>Thomas Blieberger - CodeFactory 2020</p>
+	</footer>
+
+	<script type="text/javascript" src="Challange/cars.json"></script>
+	<script>
+		var cars = JSON.parse(cars)
+		for (i=0; i<cars.length; i++) {
+			document.getElementById("main").innerHTML+="<div id='car"+[i]+"'><div class='img'><img src='Challange/"+cars[i].img+"'></div><p><b>"+cars[i].carName+"</b></p><p class='big"+[i]+"'><b>Horse Power: </b>"+cars[i].hp+"</p><p class='big"+[i]+"'><b>Year: </b>"+cars[i].year+"</p><p class='big"+[i]+"'><b>Price: </b>"+cars[i].price+"€</p></div>";
+		}
+		
+function bigresult (){
+	document.getElementsByClassName("big1").style.display="block"
+}
+
+document.getElementById("car1").addEventListener("click", bigresult)
+
+
+
+	</script>
+</body>
+</html>
