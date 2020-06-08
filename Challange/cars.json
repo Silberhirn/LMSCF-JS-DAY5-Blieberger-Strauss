@@ -1,0 +1,65 @@
+var cars = `[
+    {
+        "carName": "Ferrari 812 Superfast",
+        "year": "2002",
+        "hp": "800",
+        "price": "500.000",
+        "img": "img/812.jpg"
+    },
+    {
+        "carName": "Ferrari LaFerrari",
+        "year": "2014",
+        "hp": "963",
+        "price": "2.300.000",
+        "img": ""
+    },
+    {
+        "carName": "Ferrari LaFerrari Aperta",
+        "year": "2017",
+        "hp": "963",
+        "price": "3.300.000",
+        "img": "img/laf.jpg"
+    },
+    {
+        "carName": "Lamborghini Aventador SVJ",
+        "year": "2017",
+        "hp": "760",
+        "price": "700.000",
+        "img": "img/svj.jpg"
+    },
+    {
+        "carName": "Königsegg Agera RS",
+        "year": "2015",
+        "hp": "1175",
+        "price": "4.500.000",
+        "img": ""
+    },
+    {
+        "carName": "Ferrari 599 GTO",
+        "year": "2010",
+        "hp": "660",
+        "price": "700.000",
+        "img": "img/599gto.jpg"
+    },
+    {
+        "carName": "Porsche 918 Spyder",
+        "year": "2013",
+        "hp": "887",
+        "price": "1.000.000",
+        "img": "img/918.jpg"
+    },
+    {
+        "carName": "McLaren P1",
+        "year": "2015",
+        "hp": "1175",
+        "price": "1.000.000",
+        "img": ""
+    },
+    {
+        "carName": "Bugatti Chiron",
+        "year": "2015",
+        "hp": "1500",
+        "price": "3.500.000",
+        "img": ""
+    }
+]`

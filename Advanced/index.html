@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Books</title>
+</head>
+
+<body>
+
+    <h1>Book List:</h1>
+
+
+    <ul id="result"></ul>
+
+    <script type="text/javascript" src="books.json"></script>
+
+    <script>
+        var books = JSON.parse(books);
+
+
+        for (i = 0; i < books.length; i++) {
+            document.getElementById("result").innerHTML += "<li id='books" + [i] +"'><p><b>Title:</b> " + books[i].title +
+                "</p><p><b>Author:</b> " + books[i].author + "</p><p><b>Read:</b> " + books[i].read + "</p><img src='" +
+                books[i].img + "'></li>";
+
+
+
+
+
+    	if (books[i].read == true){
+            document.getElementById("books"+[i]).style.backgroundColor="green"
+            }else{
+                document.getElementById("books"+[i]).style.backgroundColor="red"
+            }
+
+
+        }
+
+
+
+        
+
+
+
+
+
+    </script>
+
+
+
+
+
+
+</body>
+
+</html>

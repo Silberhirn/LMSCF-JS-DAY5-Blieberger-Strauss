@@ -1,0 +1,25 @@
+var books = `[{
+	"title": "Javascript for Dummies",
+	"author": "Dummy Dumb Dumb",
+	"read": false,
+    "img": "https://images2.medimops.eu/product/803e22/M03826629175-source.jpg"
+	
+},{
+	"title": "Das SM Handbuch",
+	"author": "Matthias T. J. Grimme",
+	"read": true,
+	"img": "https://images-na.ssl-images-amazon.com/images/I/41H5EMJsFIL._SX352_BO1,204,203,200_.jpg"
+
+},{
+	"title": "Das Gesammtkunstwerk",
+	"author": "Hermann Nitsch",
+	"read": false,
+	"img": "https://images-na.ssl-images-amazon.com/images/I/51CyxY+tIXL._SX258_BO1,204,203,200_.jpg"
+
+},{
+	"title": "Grimms Märchen",
+	"author": "Brüder Grimm",
+	"read": true,
+	"img": "https://s3.eu-central-1.amazonaws.com/faltercdn/img/978394/276/9783942764018_L.jpg"
+
+}]`
